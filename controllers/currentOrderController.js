@@ -1,5 +1,6 @@
-const Order = require("../models/Order");
-const Session = require("../models/Session");
+
+const Order = require("../models/order");
+const Session = require("../models/session");
 
 const getCurrentOrder = async (req, res) => {
   try {
@@ -33,13 +34,13 @@ const getCurrentOrder = async (req, res) => {
       });
     }
 
-    res.status(200).json({
+    return res.status(200).json({
       success: true,
       message: "Here is your current order.",
       order,
     });
   } catch (error) {
-    res.status(500).json({
+    return res.status(500).json({
       success: false,
       message: "Unable to retrieve current order.",
       error: error.message,
