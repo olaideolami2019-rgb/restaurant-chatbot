@@ -1,4 +1,4 @@
-const Menu = require("../models/Menu");
+const Menu = require("../models/menu");
 const Order = require("../models/Order");
 const Session = require("../models/Session");
 
