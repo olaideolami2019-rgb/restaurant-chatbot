@@ -1,6 +1,6 @@
 
 const https = require("https");
-const Order = require("../models/Order");
+const Order = require("../models/order");
 
 const verifyPayment = async (req, res) => {
   try {
