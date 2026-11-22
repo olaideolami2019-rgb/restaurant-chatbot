@@ -1,6 +1,6 @@
 const Menu = require("../models/menu");
-const Order = require("../models/Order");
-const Session = require("../models/Session");
+const Order = require("../models/order");
+const Session = require("../models/session");
 
 const addToOrder = async (req, res) => {
   try {
