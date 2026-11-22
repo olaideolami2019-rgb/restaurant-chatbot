@@ -1,6 +1,5 @@
-
-const Order = require("../models/Order");
-const Session = require("../models/Session");
+const Order = require("../models/order");
+const Session = require("../models/session");
 
 const getOrderHistory = async (req, res) => {
   try {
