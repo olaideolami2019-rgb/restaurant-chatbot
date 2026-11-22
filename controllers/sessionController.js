@@ -1,4 +1,4 @@
-const Session = require("../models/Session");
+const Session = require("../models/session");
 const { randomUUID } = require("crypto");
 
 const createSession = async (req, res) => {
