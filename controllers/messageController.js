@@ -1,7 +1,6 @@
-
-const Menu = require("../models/Menu");
-const Session = require("../models/Session");
-const Order = require("../models/Order");
+const Menu = require("../models/menu");
+const Session = require("../models/session");
+const Order = require("../models/order");
 
 const handleMessage = async (req, res) => {
   try {
