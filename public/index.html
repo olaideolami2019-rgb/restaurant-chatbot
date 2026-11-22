@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Salam's Restaurant Chatbot</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="/script.js" defer></script>
+</head>
+<body>
+  <div class="chat-container">
+
+    <header>
+      <h2>Salam's Restaurant</h2>
+      <p>Welcome! How can we help you?</p>
+    </header>
+
+    <section class="menu-section">
+      <h3>Our Available Meals</h3>
+      <p>Choose from our menu below.</p>
+      <div id="food-menu" class="food-menu">
+        <p>Loading menu...</p>
+      </div>
+    </section>
+
+    <div id="messages">
+      <div class="message bot">
+        Welcome to Salam's Restaurant!
+
+        1 - Place an order
+        99 - Checkout order
+        98 - Order history
+        97 - Current order
+        0 - Cancel order
+      </div>
+    </div>
+
+    <form id="chat-form">
+      <input
+        id="message-input"
+        type="text"
+        placeholder="Type your message..."
+        required
+      >
+      <button type="submit">Send</button>
+    </form>
+
+  </div>
+</body>
+</html>
